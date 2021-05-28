@@ -49,7 +49,7 @@ public class Lancamento {
 	private BigDecimal valor;
 	
 	@Column(name = "data_Cadastro")
-	@Convert(converter = Jsr310Converters.LocalDateTimeToDateConverter.class)
+	//@Convert(converter = Jsr310Converters.LocalDateTimeToDateConverter.class)
 	private LocalDate dataCadastro;
 	
 	@Column(name = "tipo")
